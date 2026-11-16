@@ -1,0 +1,18 @@
+# Keep runtime and private material out of this source-only repository.
+.env
+.env.*
+!.env.example
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+rag_system/chroma_db/
+rag_system/manifest.json
+rag_system/before-migration.json
+private/
+output/
+data/
+memory/
+backups/
+*.key
+*.pem
